@@ -1,0 +1,45 @@
+body {
+  height: 100svh;
+  background: url(../img/bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.rapper {
+  height: 100svh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bj_h {
+  color: goldenrod;
+  font-size: 150px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.bj_i {
+  font-style: italic;
+}
+.bj_ph {
+  font-size: 50px;
+}
+.bj_p {
+  font-size: 35px;
+  margin: 0;
+  padding: 10px 0;
+}
+.bj_btn {
+  margin-top: 10px;
+  padding: 5px 40px;
+  color: green;
+  font-size: 25px;
+  background-color: goldenrod;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.bj_btn:hover {
+  color: white;
+  background-color: goldenrod;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Black Jack Game</title>
+    <!-- bootstrap css link -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- css link -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- media css link -->
+    <link href="css/media.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="rapper">
+            <h1 class="bj_h">Black Jack</h1>
+            <p id="message-el" class="bj_ph bj_i">Want to play a round?</p>
+            <p class="bj_p" id="card-el">Cards: 0</p>
+            <p class="bj_p" id="sum-el">Sum: 0</p>
+            <p class="bj_p bj_i" id="again-el">You need total sum 21 to win</p>
+            <button class="btn bj_btn" onclick="startGame()">Start Game</button>
+            <button class="btn bj_btn" onclick="newCard()">New Card</button>
+            <p class="bj_p" id="player-el"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- js link  -->
+    <script src="js/script.js"></script>
+    <!-- bootstrap js cdn link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
